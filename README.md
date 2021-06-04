@@ -1,3 +1,20 @@
-### Hi, I´m Juan Carlos :taco:
+![me](images/I_LOVE_CODING.jpg)
 
-![me](https://media-exp1.licdn.com/dms/image/C4E16AQFUe8l2mETEmA/profile-displaybackgroundimage-shrink_350_1400/0/1561136125332?e=1628121600&v=beta&t=eTDR_Bh0TKFpHh10mWglkHAK9PXqFmZS7z57cy66dic)
+```php
+use JuanCarlosGarciaBonilla\SoftwareDeveloper;
+
+class Bio extends SoftwareDeveloper
+{
+    public $name = 'Juan Carlos Garcia'; 
+    public $title = 'Backend Developer | Semi Senior'; 
+    public $company = 'SLM Sistemas | Remote'; 
+    public $location = 'Michoacán, MX'; 
+}
+
+class Skills extends SoftwareDeveloper
+{
+    public $languages = ['PHP','JavaScript','HTML','CSS','Python','Java','TypeScript','C#'];
+    public $databases = ['MySQL','Elasticsearch'];
+    public $frameworks = ['Laravel','Zend','Codeigniter','Slim'];
+}
+```
