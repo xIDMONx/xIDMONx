@@ -1,9 +1,9 @@
 ![me](images/I_LOVE_CODING.jpg)
 
 ```php
-use JuanCarlosGarciaBonilla\SoftwareDeveloper;
+use JuanCarlosGarciaBonilla\WebDeveloper;
 
-class Bio extends SoftwareDeveloper
+class Bio extends WebDeveloper
 {
     public $name = 'Juan Carlos Garcia'; 
     public $title = 'Backend Developer | Semi Senior'; 
@@ -11,7 +11,7 @@ class Bio extends SoftwareDeveloper
     public $location = 'Michoacán, MX'; 
 }
 
-class Skills extends SoftwareDeveloper
+class Skills extends WebDeveloper
 {
     public $languages = ['PHP','JavaScript','HTML','CSS','Python','Java','TypeScript','C#'];
     public $databases = ['MySQL','Elasticsearch'];
