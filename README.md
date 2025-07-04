@@ -1,9 +1,9 @@
 ![me](images/I_LOVE_CODING.jpg)
 
 ---
-# Hi there 👋 I am [xIDMONx](https://www.linkedin.com/in/xidmonx/)
+# Hi there 👋 I am [xIDMONx](https://www.linkedin.com/in/juan-carlos-garcia-bonilla/)
 
-<a href="https://www.linkedin.com/in/xidmonx/">
+<a href="https://www.linkedin.com/in/juan-carlos-garcia-bonilla/">
     <img align="left" alt="Juan Carlos Garcia Bonilla" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>
 </a>
 
@@ -15,17 +15,17 @@ use JuanCarlosGarciaBonilla\WebDeveloper;
 class Bio extends WebDeveloper
 {
     public $name = 'Juan Carlos Garcia Bonilla'; 
-    public $title = 'Backend Developer | Semi Senior'; 
+    public $title = 'Backend Developer | Senior'; 
     public $company = 'SLM Sistemas | Remote'; 
-    public $location = 'Michoacán, MX'; 
+    public $location = 'Estado de México, MX'; 
 }
 
 class Skills extends WebDeveloper
 {
-    public $languages = ['PHP','JavaScript','HTML','CSS','Python','Java','TypeScript','C#','XML','JSON'];
+    public $languages = ['PHP','JavaScript','HTML','CSS','Python','Java', 'Kotlin','TypeScript','C#','XML','JSON'];
     public $databases = ['MySQL','Elasticsearch'];
-    public $frameworks = ['Laravel','Zend','Codeigniter','Slim'];
-    public $software_development = ['Eclipse IDE','NetBeans IDE','IntelliJ IDEA','PhpStorm','Android Studio'];
+    public $frameworks = ['Laravel','SLM Framework', 'Spring'];
+    public $software_development = ['IntelliJ IDEA','PhpStorm','Android Studio', 'PyCharm', 'DataGrip'];
     public $sdlc = ['Scrum'];
     public $software_engineering = ['Jira'];
     public $version_control = ['Bitbucket','Git','GitHub'];
